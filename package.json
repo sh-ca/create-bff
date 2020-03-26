@@ -1,0 +1,21 @@
+{
+  "name": "@sh-ca/create-bff",
+  "version": "0.0.1",
+  "description": "@sh-ca/create-bff",
+  "scripts": {
+    "start": "git-common-cli sh-ca/bff-project ca-bff-project"
+  },
+  "author": "pengxiang",
+  "license": "ISC",
+  "files": [
+    "index.js"
+  ],
+  "bin": {
+    "create-bff": "./index.js"
+  },
+  "dependencies": {
+    "git-common-cli": "0.0.5",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {}
+}
